@@ -1,7 +1,7 @@
 <template>
-  <div class='flex flex-col items-center w-full'>
-    <img alt="Vue logo" :src="formattedImg" class='size-[250px]'>
-    <h1 class='font-poppins font-semibold text-3xl py-6'>{{ text }}</h1>
+  <div class='flex flex-col items-center border-8 mx-2 border-strawberry border-dashed p-8 md:w-1/2'>
+    <img alt="gif" :src="formattedImg" class='size-[250px]'>
+    <h1 class='font-poppins font-semibold text-3xl py-6 text-center'>{{ text }}</h1>
     <div class='flex gap-10'>
       <button class='bg-lightPink font-medium rounded-full p-4 font-poppins hover:bg-darkPink yes-btn'
       @click="$emit('yes-button-clicked')">
