@@ -1,7 +1,15 @@
 export const reasons = [
-  ['start.gif', 'you hold my hand1'],
-  ['start.gif', 'you hold my hand2'],
-  ['start.gif', 'you hold my hand3'],
-  ['start.gif', 'you hold my hand4'],
-  ['start.gif', 'you hold my hand5']
+  ["sunshine.gif", "✨ you're like a ray of sunshine ✨"],
+  ["smile.gif", "😍 i love your smile 😍"],
+  ["hottie.gif", "😳 you're such a hottie 😳"],
+  ["heater.gif", "🥵 you're my human heater 🥵"],
+  ["not-alone.gif", "🥺 you never make me feel left out 🥺"],
+  ["drunk.gif", "🐶 you always call to say that you love me even when you're drunk 🐶"],
+  ["cocktail.gif", "🍸 you know how to make cocktails 🍸"],
+  ["allergy.gif", "🤓 you noted down all my allergies and fav things 🤓"],
+  ["hug.gif", "😌 your hugs make me feel safe 😌"],
+  ["hoodie.gif", "😏 i get to wear all your hoodies 😏"],
+  ["cry.gif", "🥹 you comfort me when i cry 🥹"],
+  ["communicate.gif", "🤭 you're good at communicating 🤭"],
+  ["hold-hand.gif", "🌏 you always hold my hand when we go out 🌏"],
 ]

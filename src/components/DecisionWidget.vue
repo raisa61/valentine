@@ -1,15 +1,16 @@
 <template>
   <div class='flex flex-col items-center w-full'>
     <img alt="Vue logo" :src="formattedImg" class='size-[250px]'>
-    <h1 class='font-poppins font-semibold text-3xl py-6'>🍓 {{ text }} 🍓</h1>
+    <h1 class='font-poppins font-semibold text-3xl py-6'>{{ text }}</h1>
     <div class='flex gap-10'>
-      <button class='bg-lightPink font-medium rounded-full p-4 font-poppins hover:bg-darkPink'
+      <button class='bg-lightPink font-medium rounded-full p-4 font-poppins hover:bg-darkPink yes-btn'
       @click="$emit('yes-button-clicked')">
         {{ buttonOne }} 🌸
       </button>
-      <button class='bg-lightPink font-medium rounded-full p-4 font-poppins hover:bg-darkPink'
-      @click="$emit('no-button-clicked')"
-      >{{ buttonTwo }} 😈</button>
+      <button class='bg-lightPink font-medium rounded-full p-4 font-poppins hover:bg-darkPink no-btn'
+      @click="$emit('no-button-clicked')">
+        {{ buttonTwo }} 😈
+      </button>
     </div>
   </div>
 </template>
